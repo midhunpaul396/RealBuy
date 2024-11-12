@@ -16,7 +16,7 @@ const routes = [
     name: "HomePage",
     component: TheHomePage,
     meta: {
-      title: "Vue-estate: Real Estate Listings, Homes For Sale, Housing Data",
+      title: "RealBuy: Real Estate Listings, Homes For Sale, Housing Data",
     },
   },
   {
@@ -24,7 +24,7 @@ const routes = [
     name: "list-for-rent",
     component: TheHomePage,
     meta: {
-      title: "Rental Listings in your Neighbourhood | Vue-estate.com",
+      title: "Rental Listings in your Neighbourhood | Realbuy.com",
     },
   },
   {
@@ -152,7 +152,7 @@ const routes = [
     component: TheHomePage,
     alias: "/list-sold",
     meta: {
-      title: "Vue-estate: Real Estate Sold Listings, and Housing Data",
+      title: "Real Buy: Real Estate Sold Listings, and Housing Data",
     },
   },
   {
@@ -220,7 +220,7 @@ const routes = [
         /* webpackChunkName: "TheMortgagePage" */ "../views/TheMortgagePage.vue"
       ),
     meta: {
-      title: "Mortgages | Vue-estate.com",
+      title: "Mortgages | RealBuy.com",
     },
   },
   {
@@ -228,7 +228,7 @@ const routes = [
     name: "pageNotFound",
     component: TheHomePage,
     meta: {
-      title: "Page Not Found | Vue-estate.com",
+      title: "Page Not Found | Realbuy.com",
     },
   },
 ];
